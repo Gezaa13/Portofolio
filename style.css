@@ -1,0 +1,497 @@
+/* index */
+body {
+  margin: 0;
+  background-color: #e7e5e5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapNavigasi {
+  background-color: #504d4d;
+  padding: 5px 20px;
+  display: flex;
+}
+.textNavigasi {
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+}
+.logo {
+  width: 5%;
+  float: left;
+}
+.header {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 120%;
+  padding: 10px;
+  text-align: right;
+}
+.header:hover {
+  color: #f5b316;
+  background-color: #646363;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: right;
+  border-radius: 5px;
+}
+h1,
+h3 {
+  text-align: center;
+}
+.mainWrap {
+  justify-content: space-around;
+  display: flex;
+}
+.icon {
+  background-color: #504d4d;
+  display: inline-block;
+  max-width: 10%;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 10px;
+  text-decoration: none;
+}
+.icon:hover {
+  background-color: #646363;
+  display: inline-block;
+  max-width: 10%;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 10px;
+  text-decoration: none;
+}
+.icon2 {
+  width: 100%;
+  align-self: center;
+}
+.icon p {
+  text-align: center;
+  color: #e7e5e5;
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+/* profil */
+.mainProfil {
+  padding: 20px 20px 10px;
+}
+.row1 {
+  display: flex;
+}
+.row1 img {
+  width: auto;
+  height: 170px;
+  border: 10px solid #f5b316;
+  border-radius: 20px;
+  float: left;
+  margin-right: 10px;
+}
+.name {
+  background-color: #646363;
+  height: 60px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.name:hover {
+  background-color: #f5b316;
+  height: 60px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.name h2,
+.about p,
+.property li {
+  color: white;
+  text-align: justify;
+}
+.about {
+  background-color: #504d4d;
+  height: 100px;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.about:hover {
+  background-color: #f5b316;
+  height: 100px;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.row2 {
+  display: flex;
+  height: 140px;
+}
+.address {
+  background-color: #646363;
+  display: flex;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding-right: 20px;
+}
+.address:hover {
+  background-color: #f5b316;
+  display: flex;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding-right: 20px;
+}
+.value li a,
+.value li {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.value li a:hover,
+.value li:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.property li {
+  margin-bottom: 5px;
+}
+.skill {
+  background-color: #f5b316;
+  display: flex;
+  margin: 10px 0px 0px 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+  border-radius: 20px;
+}
+.skill img {
+  width: auto;
+  height: 60%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  filter: grayscale(1);
+}
+.skill img:hover {
+  width: auto;
+  height: 60%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  filter: grayscale(0);
+}
+
+.mainDesktop,
+.mainWebsite,
+.mainMobile {
+  padding: 0 20px;
+}
+.imageWrap,
+.imageWrap1,
+.imageWrap2,
+.imageWrap3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Desktop */
+.mainDesktop h1 {
+  text-align: center;
+}
+.mainDesktop .imageWrap img {
+  width: 100%;
+  height: auto;
+  animation: slide 16s infinite;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.mainDesktop .description,
+.mainWebsite .description {
+  padding-left: 20px;
+  width: 200%;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  55% {
+    transform: translateX(-100%);
+  }
+  60% {
+    transform: translateX(-200%);
+  }
+  90% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.nextSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.nextSection a {
+  background-color: #504d4d;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.nextSection p {
+  color: white;
+  font-size: 18pt;
+  font-weight: bold;
+}
+.nextSection img {
+  width: 50px;
+  float: right;
+  display: flex;
+}
+
+/* Website */
+.mainWebsite .imageWrap1 img {
+  width: 100%;
+  height: auto;
+  animation: slide1 16s infinite;
+}
+@keyframes slide1 {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(0);
+  }
+  13% {
+    transform: translateX(-100%);
+  }
+  23% {
+    transform: translateX(-100%);
+  }
+  26% {
+    transform: translateX(-200%);
+  }
+  36% {
+    transform: translateX(-200%);
+  }
+  39% {
+    transform: translateX(-300%);
+  }
+  49% {
+    transform: translateX(-300%);
+  }
+  52% {
+    transform: translateX(-400%);
+  }
+  62% {
+    transform: translateX(-400%);
+  }
+  65% {
+    transform: translateX(-500%);
+  }
+  75% {
+    transform: translateX(-500%);
+  }
+  78% {
+    transform: translateX(-600%);
+  }
+  88% {
+    transform: translateX(-600%);
+  }
+  91% {
+    transform: translateX(-700%);
+  }
+  98% {
+    transform: translateX(-700%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.mainWebsite .imageWrap2 img {
+  width: 100%;
+  height: auto;
+  animation: slide2 16s infinite;
+}
+@keyframes slide2 {
+  0% {
+    transform: translateX(0);
+  }
+  15% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-100%);
+  }
+  35% {
+    transform: translateX(-100%);
+  }
+  40% {
+    transform: translateX(-200%);
+  }
+  55% {
+    transform: translateX(-200%);
+  }
+  60% {
+    transform: translateX(-300%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  80% {
+    transform: translateX(-400%);
+  }
+  95% {
+    transform: translateX(-400%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.mainWebsite .imageWrap3 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Mobile */
+.mainMobile h1 {
+  text-align: center;
+}
+.mainMobile .description {
+  padding-left: 20px;
+  width: 300%;
+}
+.mainMobile .imageWrap1 img {
+  width: 100%;
+  height: auto;
+  animation: slide4 16s infinite;
+}
+.mainMobile .imageWrap2 img {
+  width: 100%;
+  height: auto;
+  animation: slide3 16s infinite;
+}
+@keyframes slide3 {
+  0% {
+    transform: translateX(0);
+  }
+  5% {
+    transform: translateX(0);
+  }
+  8% {
+    transform: translateX(-100%);
+  }
+  13% {
+    transform: translateX(-100%);
+  }
+  16% {
+    transform: translateX(-200%);
+  }
+  21% {
+    transform: translateX(-200%);
+  }
+  24% {
+    transform: translateX(-300%);
+  }
+  29% {
+    transform: translateX(-300%);
+  }
+  31% {
+    transform: translateX(-400%);
+  }
+  36% {
+    transform: translateX(-400%);
+  }
+  39% {
+    transform: translateX(-500%);
+  }
+  44% {
+    transform: translateX(-500%);
+  }
+  47% {
+    transform: translateX(-600%);
+  }
+  52% {
+    transform: translateX(-600%);
+  }
+  55% {
+    transform: translateX(-700%);
+  }
+  60% {
+    transform: translateX(-700%);
+  }
+  63% {
+    transform: translateX(-800%);
+  }
+  68% {
+    transform: translateX(-800%);
+  }
+  71% {
+    transform: translateX(-900%);
+  }
+  76% {
+    transform: translateX(-900%);
+  }
+  79% {
+    transform: translateX(-1000%);
+  }
+  84% {
+    transform: translateX(-1000%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slide4 {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  45% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  70% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  95% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
